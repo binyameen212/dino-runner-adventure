@@ -1,25 +1,20 @@
-# Dino Runner Adventure — source code
+# Dino Runner Adventure
 
-An independent modification of the Chromium T-Rex Runner, including custom game UI and Adventure-mode work.
+A browser-based Chrome Dino Runner modification featuring enhanced graphics and an Adventure mode.
 
-## Scope of this repository
+## Play
 
-This repository publishes game source code while deliberately excluding the creator's private image/audio assets. The HTML points to a `private-assets/` directory that is not included here, so this repository is **not playable as cloned**. The owner can restore their private files locally without committing them.
+1. Download `dino-runner-bundle.html` from this repository.
+2. Open the HTML file in a modern web browser.
 
-## Licence
+This repository currently contains the game as a single HTML bundle.
 
-Chromium-derived code is covered by the BSD 3-Clause terms; see `LICENSE` and `THIRD_PARTY_NOTICES.md`. The original Chromium copyright notices in the source must remain. The licence does not grant rights to excluded private assets.
+## About
 
-## Run locally (after restoring private assets)
+This project is derived from Chromium's T-Rex Runner. Original Chromium copyright notices and applicable licence terms must be preserved. See `LICENSE` and `THIRD_PARTY_NOTICES.md`.
 
-1. Restore the excluded files into `private-assets/` using the same filenames.
-2. Open `index.html` in a modern browser, or serve this folder with a local HTTP server, for example `python -m http.server 8000`.
-3. Visit `http://localhost:8000`.
+This is an unofficial project. It is not affiliated with, sponsored by, or endorsed by Google or the Chromium Authors.
 
-## Branding
+## Important note about public files
 
-This is an unofficial community project. It is not a Google product and is not endorsed by Google or the Chromium Authors.
-
-## Limitations
-
-The code has not been fully runtime-tested after asset references were externalized. Review all third-party components and notices before release.
+This repository is public. Anyone can view and download `dino-runner-bundle.html`, including its readable source code and any image or audio assets embedded in the file. Do not use this public bundle if you intend to keep those assets private; replace it with a version that excludes them before publishing.
