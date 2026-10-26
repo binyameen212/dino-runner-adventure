@@ -1,0 +1,3 @@
+# Private assets must not be published
+private-assets/
+*.private
